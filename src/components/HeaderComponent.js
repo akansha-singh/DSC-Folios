@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Navbar, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem, Button} from 'reactstrap';
+import { Navbar, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem} from 'reactstrap';
 import { NavLink } from 'react-router-dom';
 
 
@@ -43,13 +43,13 @@ export class HeaderComponent extends Component {
                                 <NavLink color="dark" className="nav-link"  to='/home'> Home</NavLink>
                             </NavItem>
                             <NavItem className="nav-items">
-                                <NavLink className="nav-link" to='/aboutus'> About</NavLink>
+                                <NavLink className="nav-link" to='/about'> About</NavLink>
                             </NavItem>
                             <NavItem className="nav-items"> 
-                                <NavLink className="nav-link"  to='/menu'> How to Use</NavLink>
+                                <NavLink className="nav-link"  to='/howtoUse'> How to Use</NavLink>
                             </NavItem>
                             <NavItem className="nav-items">
-                                <NavLink className="nav-link" to='/contactus'> Sign In</NavLink>
+                                <NavLink className="nav-link" to='/signin'> Sign In</NavLink>
                             </NavItem>
                             <NavItem>
                             <a href="#"><img src="assets/images/img4.svg" width="153px" height="auto"/></a>

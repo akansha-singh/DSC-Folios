@@ -52,7 +52,7 @@ export class HeaderComponent extends Component {
                                 <NavLink className="nav-link" to='/signin'> Sign In</NavLink>
                             </NavItem>
                             <NavItem>
-                            <a href="#"><img src="assets/images/img4.svg" width="153px" height="auto"/></a>
+                            <NavLink to='/signup'> <img src="assets/images/img4.svg" width="153px" height="auto"/></NavLink>
                             </NavItem>
                             </Nav>                           
                         </Collapse>

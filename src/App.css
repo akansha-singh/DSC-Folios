@@ -10,14 +10,18 @@
     font-weight: bold;
 }
 .button{
-    color:white;
-    background-color: blue;
-    height:35px;
-    width:130px;
+    
 }
 .heading_one{
     font-weight:bold;
     background: -webkit-linear-gradient(#4285F4, #6563EF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+.para{
+    font-size: 14px;
+}
+.howtouse{
+    cursor: pointer;
+    color:#20C1CB;
 }

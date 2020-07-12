@@ -25,7 +25,7 @@ export class HeaderComponent extends Component {
     render() {
         return (
             <div>
-                <Navbar color="white" light expand="lg" className="nav-bar">
+                <Navbar color="white" light expand="lg" className="nav-bar" style={{marginBottom:'30px'}}>
                     <div className="container">
                         
                         <NavbarBrand className="mr-auto" href="/">
@@ -38,7 +38,7 @@ export class HeaderComponent extends Component {
             </NavbarBrand>
             <NavbarToggler onClick={this.toggleNav} className="ml-auto" />
                         <Collapse isOpen={this.state.isNavOpen} navbar>
-                            <Nav navbar className="ml-auto" style={{float:'right',color:'#000000'}}>
+                            <Nav navbar className="ml-auto" >
                             <NavItem className="nav-items">
                                 <NavLink color="dark" className="nav-link"  to='/home'> Home</NavLink>
                             </NavItem>
@@ -52,7 +52,7 @@ export class HeaderComponent extends Component {
                                 <NavLink className="nav-link" to='/signin'> Sign In</NavLink>
                             </NavItem>
                             <NavItem>
-                            <NavLink to='/signup'> <img src="assets/images/img4.svg" width="153px" height="auto"/></NavLink>
+                                <NavLink to='/signup'><button type="button" className="btn btn-primary" style={{width:'153px', height:'auto'}} >Signup</button></NavLink>
                             </NavItem>
                             </Nav>                           
                         </Collapse>

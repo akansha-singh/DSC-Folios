@@ -9,9 +9,6 @@
     color:black;
     font-weight: bold;
 }
-.button{
-    
-}
 .heading_one{
     font-weight:bold;
     background: -webkit-linear-gradient(#4285F4, #6563EF);
@@ -25,3 +22,36 @@
     cursor: pointer;
     color:#20C1CB;
 }
+
+@media (min-width: 328px) and (max-width: 600px) {
+    .homepage-img {
+        margin-top: 30px;
+        height:260px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+    .homepage-img {
+        margin-top: 30px;
+        height:390px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .homepage-img {
+        height:440px;
+    }
+}
+
+/* @media (min-width: 992px) and (max-width: 1200px) {
+    .homepage-img {
+        height:460px;
+    }
+} */
+
+@media only screen and (max-width: 768px) {
+    .homecontent{
+        text-align: center;
+    }
+}
+

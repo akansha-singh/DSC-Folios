@@ -73,7 +73,7 @@ export class HowToUse extends Component {
                     </div>
                         <div className="col-lg-8 col-sm-12 col-xs-12 col-xl-8">
                             <center>
-                            <img src={this.state.imgList[this.state.index]} height="400px" width="auto" alt=""/>
+                            <img src={this.state.imgList[this.state.index]} height="400px" width="auto" alt="" style={{marginTop:'30px'}}/>
                             </center>
                         </div>
                 </div>

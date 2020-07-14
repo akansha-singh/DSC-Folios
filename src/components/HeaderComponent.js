@@ -52,7 +52,7 @@ export class HeaderComponent extends Component {
                                 <NavLink className="nav-link" to='/signin'> Sign In</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink to='/signup'><button type="button" className="btn btn-primary" style={{width:'153px', height:'auto'}} >Signup</button></NavLink>
+                                <NavLink to='/signup'><button type="button" className="btn buttons" style={{width:'153px', height:'auto',color:'#ffffff',fontSize:'15px'}} >Signup</button></NavLink>
                             </NavItem>
                             </Nav>                           
                         </Collapse>

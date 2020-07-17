@@ -51,29 +51,29 @@ export class HowToUse extends Component {
                         <ul>
                             <li>
                                 <h6 onClick={this.onClickUse} className="howtouse"><b>How To USE</b></h6>
-                                <p className="para">Keep all your important links on your fingure tips and such easy sharing is never possible before. An ideal place to keep and share your presence.</p>
+                                <p className="para">Keep all your important links on your finger tips and such easy sharing is never possible before. An ideal place to keep and share your presence.</p>
                                 <hr/>
                             </li>
                             <li>
                                 <h6 onClick={this.onClickBuilt} className="howtouse"><b>How to Built</b></h6>
-                                <p className="para">Keep all your important links on your fingure tips and such easy sharing is never possible before. An ideal place to keep and share your presence.</p>
+                                <p className="para">Keep all your important links on your finger tips and such easy sharing is never possible before. An ideal place to keep and share your presence.</p>
                                 <hr/>
                             </li>
                             <li>
                                 <h6 onClick={this.onClickEdit} className="howtouse"><b>How to Edit</b></h6>
-                                <p className="para">Keep all your important links on your fingure tips and such easy sharing is never possible before. An ideal place to keep and share your presence.</p>
+                                <p className="para">Keep all your important links on your finger tips and such easy sharing is never possible before. An ideal place to keep and share your presence.</p>
                                 <hr/>
                             </li>
                             <li>
                                 <h6 onClick={this.onClickShare} className="howtouse"><b>How To Share</b></h6>
-                                <p className="para">Keep all your important links on your fingure tips and such easy sharing is never possible before. An ideal place to keep and share your presence.</p>
+                                <p className="para">Keep all your important links on your finger tips and such easy sharing is never possible before. An ideal place to keep and share your presence.</p>
                                 <hr/>
                             </li>
                         </ul>
                     </div>
                         <div className="col-lg-8 col-sm-12 col-xs-12 col-xl-8">
                             <center>
-                            <img src={this.state.imgList[this.state.index]} height="400px" width="auto" alt="" style={{marginTop:'30px'}}/>
+                            <img src={this.state.imgList[this.state.index]}  alt="" style={{marginTop:'30px',maxWidth:'100%', maxHeight:'100%'}}/>
                             </center>
                         </div>
                 </div>

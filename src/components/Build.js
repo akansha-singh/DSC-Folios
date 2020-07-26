@@ -263,7 +263,7 @@ const handleRemoveClick1 = index => {
                             <hr/>
                             <div className="btn-box">
                                 {SocailLinks.length - 1 === i && <span><img src="assets/images/Group 102.svg" style={{height:'40px',width:'auto',cursor: 'pointer',margin:'5px'}} onClick={handleAddClick3}/> <b>Add another Link</b></span>}
-                                {i!=0 && SocailLinks.length !== 1 && <button style={{float:'right'}} className="mr10" onClick={() => handleRemoveClick3(i)}>Remove</button>}
+                                {i!=0 && SocailLinks.length - 1 === i && <button style={{float:'right'}} className="mr10" onClick={() => handleRemoveClick3(i)}>Remove</button>}
                             </div>
                             </>
                         )

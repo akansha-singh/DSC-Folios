@@ -12,14 +12,14 @@ export class LinkSet1 extends Component {
     render() {
       const linkset1 = this.props.projectLinks.set1_links.map((linkset)=> {
         return (
-          <div class="card" key={linkset.id}>
-          <div class="card-body">
-              <h6>{linkset.link_heading}</h6>
-              <p>{linkset.link_url}</p>
-              <CopyToClipboard className="mr-auto" text={linkset.link_url} onCopy={() => this.setState({copied: true})}>
-                <button>Copy</button>
+          <div className="card no-gutters shadow-sm mb-2 bg-white rounded" key={linkset.id}>
+          <div className="card-body w-100">
+              <span style={{fontSize:'16px',fontFamily: 'Airbnb Cereal App',color:'#8D54C2'}}><strong>{linkset.link_heading}</strong></span><br/>
+              <span style={{fontSize:'14px',fontFamily: 'Airbnb Cereal App',color: '#989898'}}>{linkset.link_url}</span>
+              <CopyToClipboard text={linkset.link_url} onCopy={() => this.setState({copied: true})}>
+                <a onClick="return false" href="#"><img className="mr-auto" src="assets/images/Group 104.svg" style={{width:'30px',height:'30px',margin:'5px',float:'right'}}/></a>
               </CopyToClipboard>
-              <a href={linkset.link_url} target="_blank">   Go</a>
+              <a className="mr-auto" style={{float:'right'}} href={linkset.link_url} target="_blank"><img src="assets/images/Group 103.svg" style={{width:'30px',height:'30px',margin:'5px'}}/></a>
               {this.state.copied ? <span style={{color: 'green'}}>Copied.</span> : null}
           </div>
         </div>
